@@ -1,13 +1,15 @@
-# ADDA / ADDACL league data (Dart Connect exports)
+# ADDA / ADDACL league data
 
-Season-by-season CSV exports for the **Atlanta-Decatur Dart Association** leagues, as produced by
-[Dart Connect](https://dartconnect.com) (DC):
+Open league data for the **Atlanta-Decatur Dart Association** leagues:
 
 - **ADDA** — the Monday league, seasons 57–64 (Summer 2024 → Fall 2026)
 - **ADDACL** — the Coed league, seasons 23–27 (Fall 2024 → Fall 2026)
 
-The season files are Dart Connect's. ADDA archives DC's exports and publishes them under `dartconnect/` **as-is except for the six
-deviations below**. ADDA's own canonical layer — canonical players and teams, and the crosswalks that tie DC's rows to them — is [`adda/`](adda/README.md).
+The corpus has two parts. [`adda/`](adda/README.md) is ADDA's own **canonical layer** — one canonical row per player and per team
+(including each player's gender), plus the crosswalks that tie every source's rows to those canonical ids. Alongside it, `dartconnect/`
+holds the season exports from [Dart Connect](https://dartconnect.com) (DC), the league's **current** scoring platform and so the current
+source of season data. ADDA archives DC's exports and publishes them **as-is except for the five deviations below**. The structure is
+built to take additional sources later, each as its own per-source layer mapped to the same canonical ids.
 Start with [`manifest.json`](manifest.json) (one fetch lists every file with its league, season, cut,
 date range, row counts, checksums and which columns/rows were removed), and read
 [`GOTCHAS.md`](GOTCHAS.md) before computing anything; [`COLUMNS.md`](COLUMNS.md) defines the columns (including [ADDAs](COLUMNS.md#addas), ADDA's own high-score-turn measure, from the live [season-stats FAQ](https://addadarts.com/season-stats)), and [`RECAPS.md`](RECAPS.md) explains how to read the
@@ -17,11 +19,11 @@ per-match recap pages the match logs link to (where per-leg / per-turn detail li
 
 The corpus is split by **who the data belongs to**:
 
-- **`dartconnect/`** — DC's raw, per-source exports, one folder per league and season. Content is DC's (the six
+- **`dartconnect/`** — DC's raw, per-source exports, one folder per league and season. Content is DC's (the five
   deviations are removals only). It is a *source* layer: point-in-time, mutable, and not ADDA's to license.
 - **`adda/`** — ADDA's own canonical layer, spanning sources: one canonical row per player and per team, plus the
   crosswalks from each DC season row to those canonical ids. This is the part that is actually ADDA's to license.
-- **`legacy/`** — **reserved, not present yet.** Pre-DartConnect data (the old platform was literally called "Legacy")
+- **`legacy/`** — **reserved, not present yet.** Pre-DartConnect data
   will land here as another per-source layer, mapped to the same `adda_player_id` / `adda_team_id` in `adda/`.
 
 ```
@@ -52,6 +54,7 @@ It is **DC's season-specific roster snapshot**: what was in DartConnect during t
 to (a) match leaderboard rows to an `adda_player_id` through `adda/player_crosswalk.csv`, and (b) read the season's
 team → division, team → venue and team → captain assignments. It is **not** canonical or authoritative — it is
 mutable, point-in-time data. For who a person *is* (name, gender, id), use `adda/players.csv`.
+Gender is published for **every** player (both leagues) in `adda/players.csv`; it also remains in the ADDACL DartConnect roster and leaderboard files, while the ADDA `dartconnect/` files do not carry a `Gender` column.
 
 ### Canonical name vs. season name
 
@@ -62,7 +65,7 @@ in `players.csv` — are the name **as entered in DC that season**; they exist f
 has two sets of leaderboards, `…__div_ABC.csv` and `…__div_D.csv` — see GOTCHAS. Seasons whose
 `status` in the manifest is `in_progress` (currently ADDA 64, ADDACL 27) are partial and will change.
 
-## The six deviations from Dart Connect's files
+## The five deviations from Dart Connect's files
 
 Everything else — column order, quoting, values, line endings — is DC's, byte for byte. Rows and columns
 are only ever *removed*, never edited or reordered. The build refuses any
@@ -72,12 +75,11 @@ input whose header contains a column it does not recognise.
 |---|-----------|-----------|--------|
 | 1 | Contact info removed: `Email`, `Phone` | `players.csv`, all leagues (only file that has them) | columns removed |
 | 2 | `Country` removed | `players.csv` + leaderboards, all leagues | column removed |
-| 3 | `Gender` removed | **ADDA only** (players + leaderboards). **Kept for ADDACL** (coed) | column removed |
-| 4 | Inactive rows dropped: blank `Team` **or** blank `Division` | `players.csv` **and** the leaderboards (the rule runs on both; it currently drops 0 leaderboard rows). In `players.csv` these are registered-but-not-playing rows that season | rows removed |
-| 5 | `League Id` removed | `players.csv`, all leagues. `ID` (the DCID) is kept. The [`adda/`](adda/README.md) crosswalk is the single authoritative source of canonical ids | column removed |
-| 6 | `League Status` and `Season Status` removed | `players.csv`, all leagues. These are league-administration fields (they can record that a player is restricted from playing) and are not published | columns removed |
+| 3 | Inactive rows dropped: blank `Team` **or** blank `Division` | `players.csv` **and** the leaderboards (the rule runs on both; it currently drops 0 leaderboard rows). In `players.csv` these are registered-but-not-playing rows that season | rows removed |
+| 4 | `League Id` removed | `players.csv`, all leagues. `ID` (the DCID) is kept. The [`adda/`](adda/README.md) crosswalk is the single authoritative source of canonical ids | column removed |
+| 5 | `League Status` and `Season Status` removed | `players.csv`, all leagues | columns removed |
 
-Machine-readable: `manifest.json` → `deviations` lists all six (`league_id_column_dropped` is the fifth, `league_status_season_status_columns_dropped` the sixth).
+Machine-readable: `manifest.json` → `deviations` lists all five (`league_id_column_dropped` is the fourth, `league_status_season_status_columns_dropped` the fifth).
 Each manifest entry lists `columns_removed`, `rows_in` (DC's row count) and `rows_out` (published).
 Rows with a blank `Matches` value in a leaderboard cut are **kept** — they are players who did not play
 that cut, not inactive players. Match logs are published unchanged (recap links included).
@@ -87,7 +89,7 @@ that cut, not inactive players. Match logs are published unchanged (recap links 
 | Field | Where | What it is | Use it as a key? |
 |-------|-------|------------|------------------|
 | `ID` (the "DCID") | `players.csv` | DC's player-account id, **per league** (the same person has different DCIDs in ADDA and ADDACL) | **Yes, within one league** — stable across seasons; the join key between `players.csv` and the crosswalk |
-| `League Id` | *(not published)* | DC's column that was **meant to hold the ADDA player id**; DC's values are unreliable and mutable (blank or wrong in some seasons), so it is dropped from the DC files and the authoritative id is published instead (deviation 5) | **No — use `adda_player_id` from `adda/player_crosswalk.csv`.** |
+| `League Id` | *(not published)* | DC's column that was **meant to hold the ADDA player id**; DC's values are unreliable and mutable (blank or wrong in some seasons), so it is dropped from the DC files and the authoritative id is published instead (deviation 4) | **No — use `adda_player_id` from `adda/player_crosswalk.csv`.** |
 | `adda_player_id` | `adda/players.csv` (canonical), `adda/player_crosswalk.csv` | ADDA's canonical player id (one per person, spans both leagues and pre-DC history) | Yes — this is the id addadarts.com uses |
 | `adda_team_id` | `adda/teams.csv` (canonical), both crosswalks | ADDA's canonical team id | Yes |
 
@@ -135,7 +137,7 @@ Cite the specific season(s) and `sha256` from the manifest if reproducibility ma
 **`dartconnect/` — Dart Connect's data; no ADDA license.** Source data © Dart Connect, republished under Dart
 Connect's export "other purposes" clause ([DartConnect's export-leaderboard page](https://www.dartconnect.com/league-administrator-updates/export-leaderboard/)); no additional rights
 are granted by ADDA over the underlying Dart Connect data. ADDA is not the rights-holder of that data and
-does not license it. Its removals (the six deviations) are the only changes ADDA made.
+does not license it. Its removals (the five deviations) are the only changes ADDA made.
 
 **`adda/` — ADDA's own data.** The canonical players/teams files and the crosswalks are ADDA's work and ADDA's to license; together with the documentation
 (`README.md`, `GOTCHAS.md`, `COLUMNS.md`, `RECAPS.md`, `adda/README.md`) they are published under

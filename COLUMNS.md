@@ -27,7 +27,7 @@ Blank cells mean "no value" — for the leaderboards that means the player did n
 DC's **season-specific roster snapshot** — what was in DartConnect during that season's active window. It is mutable, point-in-time data, **not** the canonical player record (that is [`adda/players.csv`](#adda-canonical-files)).
 
 Header as published: `"ID","First Name","Last Name","Division","Team","Captain","Venue","Position"`
-(ADDACL's file also has `"Gender"` between `"Venue"` and `"Position"`; ADDA's does not. Removed columns are listed in the README's deviation ledger.)
+(ADDACL's file also has `"Gender"` between `"Venue"` and `"Position"`; ADDA's does not — gender for every player is in `adda/players.csv`. Removed columns are listed in the README's deviation ledger.)
 
 | Column | Meaning |
 |--------|---------|
@@ -37,11 +37,11 @@ Header as published: `"ID","First Name","Last Name","Division","Team","Captain",
 | `Team` | Team name that season. **[verified]** (matches the leaderboards' `Team`) |
 | `Captain` | `Captain` / `Co-Captain` / blank. **[inferred]** |
 | `Venue` | The team's home venue name (GOTCHAS #12). **[inferred]** |
-| `Gender` | ADDACL only (`M`/`F`/`U`/blank); removed for ADDA. **[inferred]** registration field. |
+| `Gender` | ADDACL files only (`M`/`F`/`U`/blank); for all players in both leagues see `gender` in `adda/players.csv`. **[inferred]** registration field. |
 | `Position` | Always blank (GOTCHAS #11). **[verified]** |
 
-`League Id` is deliberately **not published** (README deviation 5): use `adda_player_id` from `adda/player_crosswalk.csv`. `League Status` and
-`Season Status` are also **not published** (README deviation 6).
+`League Id` is deliberately **not published** (README deviation 4): use `adda_player_id` from `adda/player_crosswalk.csv`. `League Status` and
+`Season Status` are also **not published** (README deviation 5).
 
 ## Leaderboards — shared by the four 01/cricket cuts
 

@@ -10,10 +10,10 @@ Read these before joining, aggregating, or comparing across seasons.
    per season *and* team, never on name alone.
 2. **`League Id` is not published.** DC's `players.csv` has a `League Id` column that was **meant to hold the ADDA
    player id**, but DC's values are unreliable and mutable (blank or wrong in some seasons, and DC will not let
-   ADDA correct them). So it is dropped from the DartConnect files (README deviation 5) and the authoritative
+   ADDA correct them). So it is dropped from the DartConnect files (README deviation 4) and the authoritative
    `adda_player_id` is published instead, via `adda/player_crosswalk.csv`. `ID` (the DCID) stays — it is the
    within-league join key to that crosswalk. `League Status` and `Season Status` are also not published
-   (README deviation 6).
+   (README deviation 5).
 3. **DCIDs are per league.** The ~30 people in both leagues have a different `ID` in each. Within a league a
    DCID is stable across seasons, but the *name attached to it* is not always: e.g. `Buck Buckley` /
    `Gareth Buckley`, `Bryan` / `Brian Blase`. Match people by DCID, not by spelling.
@@ -39,8 +39,9 @@ Read these before joining, aggregating, or comparing across seasons.
 11. **`Position` is always blank** in DC's roster export, all seasons and both leagues. It carries no
     gender or lineup information. (The build refuses to publish a non-blank value without review.)
 12. **`Venue` is a bar/venue name**, never a street address (every published value is a venue name).
-13. **Gender** is stripped from the ADDA `dartconnect/` files. In ADDACL (coed) it is kept, values `M`/`F`, occasionally `U` or blank —
-    treat it as DC's registration field, not a verified attribute. ADDA's own `adda/players.csv` publishes `gender` for every player in both leagues (blank = not recorded).
+13. **Gender lives in `adda/players.csv`**, which publishes `gender` for every player in both leagues (`M`/`F`, occasionally `U`; blank = not recorded). It also
+    remains in the ADDACL (coed) DartConnect roster and leaderboard files under `dartconnect/addacl/`; the ADDA `dartconnect/` files don't carry a `Gender` column — use `adda/players.csv`.
+    Treat it as a registration field, not a verified attribute.
 
 ## Seasons and cuts
 
