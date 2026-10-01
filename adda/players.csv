@@ -1,0 +1,339 @@
+adda_player_id,name,gender
+1,Justin Stewart,M
+2,Neil Bronstein,M
+4,Wade Moricle,M
+6,Rob Sten,M
+8,Gus Glaw,M
+14,Steve Blackburn,M
+33,Frank Schultz,M
+127,John Steinhofer,M
+169,Krisna Gendo,M
+173,Tom Hidock,M
+258,Rich Dufford,M
+274,Chris Cline,M
+291,Katie Wyman,F
+296,Brian Reber,M
+297,Matty Ryan,M
+300,Jeff Lell,M
+301,David Ozyp,M
+302,Bo Scott,M
+328,Kym Hadzik,F
+332,Miro Malesevic,M
+333,Kristin Thorsen,F
+334,Matt Hall,M
+339,Scott Mitchell,M
+382,Emory Cullen,M
+425,Donald Kjorlien,M
+427,Dacey Hartsfield,F
+428,Sabah Ahmad,M
+429,Mike Gentry,M
+433,Sara Haskew,F
+458,Paul Rodecker,M
+499,Brian Lane,M
+519,Chris Jones,M
+521,Johnny McConnell,M
+523,David Massey,M
+524,John Collins,M
+525,Tom Williams,M
+526,Trey Smith,M
+532,Nick Waldorf,M
+551,Andrew Cutcher,M
+590,Matt Weaver,M
+619,Mike Fitzgibbon,M
+623,Melissa Abreu,F
+663,Levi Blinson,M
+669,Chad Haase,M
+680,Jeff Bekiares,M
+696,Jamila Hankins,F
+720,Gareth Buckley,M
+748,Andy Minkewicz,M
+783,Brook Caballero,F
+799,Binz Hansen,M
+829,Phillip Appiah,M
+860,Moran Vered,M
+861,Doug Lueder,M
+876,Michael Dryden,M
+891,Tony Crane,M
+910,Kevin Leipow,M
+917,Wendy Lambert,F
+932,Bryan Blase,M
+935,Tom Gramling,M
+943,Bill Griffin,M
+995,Ryan Price,M
+1002,Heather Koth,F
+1007,Laura Steul,F
+1011,Charlie Cates,M
+1022,Jamie Lane,M
+1033,Doug Sprinkle,M
+1036,Andy McClatchey,M
+1039,William Vance,M
+1042,Jimmy Horton,M
+1044,Drew Wood,M
+1045,Sam Farmer,M
+1053,Shayne Adams,M
+1071,Clinton Watkins,M
+1081,Jumpy Burns,M
+1089,Xander Johnson,M
+1097,Jacob Gauthier,M
+1108,Bretton McIlrath,M
+1109,Amber Gallagher,F
+1111,Paul Granade,M
+1128,Frank Cassino,M
+1129,Don Hodack,M
+1130,Bryan Hieserman,M
+1131,Scott Robinson,M
+1133,Stephen Pritchett,M
+1135,Darrin Tigue,M
+1137,Ben McGlamery,M
+1138,Robert Graham,M
+1143,Matt Cartin,M
+1148,John Marty,M
+1152,Jeff Davis,M
+1162,Jake Star,M
+1164,Ryan Reynolds,M
+1170,Sean Chance,M
+1175,Brent Harris,M
+1185,Justin Walker,M
+1214,Todd Gandee,M
+1216,Dustin Weaver,M
+1226,Tom Kerekes,M
+1228,James Steadham,M
+1235,Matt McGlamery,M
+1244,James Hutchins,M
+1251,Jeff Gordon,M
+1260,Brian Newsome,M
+1266,Patrick McCoy,M
+1294,Nick Lemmond,M
+1322,Robert Sills,M
+1329,Nickie Adams,F
+1345,Tyler Mabry,M
+1359,Eli Sanders,F
+1363,Jeff Jurgena,M
+1371,Jimy Hoadley,M
+1385,Nick DeMarco,M
+1386,Ryan Murphy,M
+1388,Bruce Thomas,M
+1393,Matthew Suhr,M
+1396,Hayley McNutt,F
+1397,Doug Holloway,M
+1403,Scott Jones,M
+1409,PJ Hon,M
+1410,Rede Hankinson,M
+1414,David Hooten,M
+1415,Max Leonard,M
+1416,Matt Bailey,M
+1417,Dave Benkeser,M
+1418,Cal Hooten,M
+1431,Antonio Pfleegor,M
+1432,Darin Paine,M
+1435,Derrick Blackman,M
+1436,Ryan Schumacher,M
+1437,Myles Andre,M
+1439,Andrew Mistretta,M
+1445,Greg Shaw,M
+1446,Dave Jordan,M
+1448,Amelia Hill,F
+1449,Alex Carter,M
+1454,Andrew McIntosh,M
+1455,Leanna London,F
+1456,Ryan Evans,M
+1460,Josh McLaurin,M
+1463,Gavin Williams,M
+1467,Dan Niewoehner,M
+1468,Jim Davis,M
+1470,Tim Truman,M
+1471,Charlene Sotolongo,F
+1475,Mike Gover,M
+1477,Rob Koppenhaver,M
+1478,Craig Tanguay,M
+1479,Caleb Weir,M
+1481,Chase Cochran,M
+1751,Erica Fortune,F
+1754,Katt Miteff,F
+1755,Dave Reis,M
+1759,Brian Fletcher,M
+1761,Peggy Vazquez,F
+1764,Julie Moricle,F
+1766,Stephanie Newsome,F
+1769,Conner Allred,M
+1770,Josh Hunsberger,M
+1771,Paul Cloutier,M
+1773,Brendan Elizondo,M
+1780,Thomas Forbes,M
+1781,Eliot Beckham,M
+1785,Paul Amedeo,M
+1786,Tristan Ziegler,M
+1788,Josh Johnson,M
+1789,Patrick Woods,M
+1790,Joed Kendrick,M
+1797,Artie Nicholaus,M
+1799,Kevin Riordan,M
+1800,Sloan Ware,M
+1801,Jason Egli,M
+1804,Jaron Neal,M
+1805,Merrick Royball,M
+1816,Matt Roszak,M
+1826,Michael Walsh,M
+1830,Jason Boley,M
+1831,Ben Clayton,M
+1832,Lindsey Dowell,F
+1833,Jacob Flood,M
+1835,Jeff Linn,M
+1838,Reaghan Smith,F
+1839,Patrick Gallagher,M
+1842,Connor Bernhard,M
+1845,Sarah Gilbert,F
+1852,Duane Trotter,M
+1854,Eric Goodrich,M
+1855,Duncan Albert,M
+1856,Taylor Schmidt,F
+1857,Daniel Wartner,M
+1859,Rodney Mosteller,M
+1860,Ted Eader,M
+1863,Ben Rolader,M
+1866,Lauren Alvarez,F
+1867,Spencer Bauer,M
+1868,Cameron Pennington,M
+2002,Nick Angeramo,M
+2003,Sam Barksdale,M
+2006,Grant Brantley,M
+2007,Stephanie Buehler,F
+2008,Lindsey Cyr,F
+2010,Steven Feki,M
+2011,Patrick Groome,M
+2012,Ryan Hansen,M
+2013,Aneal Khimani,M
+2014,Kyle Lindenmuth,M
+2015,Joe Ryan,M
+2016,Jake Shiptenko,M
+2017,Spencer Strobel,M
+2019,Julia Littleton,F
+2020,Claudia Orth,F
+2021,Gene Brighton,M
+2023,Deidre Harrison,F
+2024,Dave Lea,M
+2025,Shelby Busha,F
+2026,A.C. Flynn,F
+2027,Bryan Williamson,M
+2028,Johnny Burns,M
+2029,Prem Pillai,M
+2030,Nick Turner,M
+2032,Adrian Adams,M
+2033,Ali Horton,F
+2034,Austin Campagnolo,M
+2036,Sophie Atkinson,F
+2037,Ethan Thurmond,M
+2038,Doug Jones,M
+2039,Ryan Blumberg,M
+2040,Joe Prestigiacomo,M
+2041,Jan Jones,M
+2042,Willem Derks,M
+2043,Don Hamp,M
+2044,Travis Pulliam,M
+2045,Joe Guardino,M
+2046,Jacob Berry,M
+2047,Dylan Guggenheim,M
+2049,Cameron Hale,M
+2050,Steve Cutcher,M
+2051,Jon Stites,M
+2052,Megan Alexander,F
+2053,Eric Zeck,M
+2054,Tae Bryan,M
+2057,Cat Matthews,F
+2058,Mike McClellan,M
+2059,Austin Pender,M
+2062,Faughn Adams,F
+2063,TJ Carlton,M
+2064,Paula Cicio,F
+2065,Ryan Cannin,M
+2066,Jake Godwin,M
+2067,Dylan D'Angelo,M
+2069,Pierce Bauer,M
+2070,Abi Thombley,F
+2072,Janine Kupersmith,F
+2073,Novarah Mattiaccio,F
+2074,Pasquale Mattiaccio,M
+2075,Patricia Liscio,F
+2076,Bill Jones,M
+2077,Mitch Carlson,M
+2078,Wes Cain,M
+2079,Curt Bonnem,M
+2080,Sulli Sullivan,F
+2082,Linda Mongalo,F
+2083,Amariah Love,U
+2084,Lauren Davis,F
+2085,James Fusco,M
+2086,Paul Hughes,M
+2088,Rebecca Early,F
+2089,Jennie Myers,F
+2090,Alanna Roszina,F
+2091,Ryan Whitmire,M
+2092,Mike Lind,M
+2093,Nicole Corona,F
+2094,Carlos Burrell,M
+2095,Gabriel Holcomb,M
+2096,Robert Cook,M
+2097,Clyde Lee,M
+2098,Brendan Connolly,M
+2099,Wes Deweese,M
+2100,Remington Hasty,F
+2101,Ant Storey,M
+2102,Brittany Baro,F
+2103,Chris Hardin,M
+2104,Andy Baptiste,M
+2105,Carlos Moreno,M
+2106,Paula Poteet Storey,F
+2107,Jonathan Miller,M
+2108,Chrissy McNamara,F
+2109,Shawn Pasley,M
+2110,Magda Van De Vyver,F
+2111,Chris Dryja,M
+2112,Broc Everett,M
+2113,Mark Birkbeck,M
+2115,Anthia Sublett,U
+2118,Jacob Sloan,M
+2119,Caitlyn Greene,F
+2121,Tyler Onstott,M
+2122,Steven Elliott,M
+2123,Cary Locke,M
+2124,Jahron Menace,M
+2125,Jonathan Zurawin,M
+2126,Jordan McClamroch,M
+2127,Andrew Stine,M
+2128,Vick Ehrmann,M
+2129,Nick Gonzalez,M
+3002,zz Alternate zz,U
+3047,zz Alternate zz,U
+3048,zz Alternate zz,U
+3081,zz Alternate zz,U
+3087,zz Alternate zz,U
+3099,zz Alternate zz,U
+3105,zz Alternate zz,U
+3177,zz Alternate zz,U
+3190,zz Alternate zz,U
+3196,zz Alternate zz,U
+3209,zz Alternate zz,U
+3228,zz Alternate zz,U
+3240,zz Alternate zz,U
+3241,zz Alternate zz,U
+3243,zz Alternate zz,U
+3245,zz Alternate zz,U
+3246,zz Alternate zz,U
+3266,zz Alternate zz,U
+3275,zz Alternate zz,U
+3276,zz Alternate zz,U
+3277,zz Alternate zz,U
+3282,zz Alternate zz,U
+3283,zz Alternate zz,U
+3289,zz Alternate zz,U
+3301,zz Alternate zz,U
+3302,zz Alternate zz,F
+3310,zz Alternate zz,U
+3311,zz Alternate zz,U
+3312,zz Alternate zz,U
+3314,zz Alternate zz,U
+3316,zz Alternate zz,U
+3319,zz Alternate zz,
+3320,zz Alternate zz,
+3321,zz Alternate zz,
+3322,zz Alternate zz,U

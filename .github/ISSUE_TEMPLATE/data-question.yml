@@ -1,0 +1,19 @@
+name: Data question / field meaning
+description: Ask what a column, file, or number means, or how to use the data.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking! Please check `README.md`, `GOTCHAS.md` and `COLUMNS.md` first — your answer may already be there.
+  - type: input
+    id: where
+    attributes:
+      label: Which file / column / season?
+      placeholder: "e.g. dartconnect/adda/63/leaderboard_all_01.csv, column 3DA"
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true

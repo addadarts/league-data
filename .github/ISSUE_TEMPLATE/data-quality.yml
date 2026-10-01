@@ -1,0 +1,23 @@
+name: Data quality or player-data problem
+description: Report wrong, missing, or mismatched data — including a player or team that looks mislinked.
+labels: ["data-quality"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us fix the data. Issues are public — please don't post private contact details.
+  - type: input
+    id: where
+    attributes:
+      label: Where did you see it?
+      description: File and league/season, plus the player or team if it is about one.
+      placeholder: "e.g. adda/player_crosswalk.csv, ADDA season 62, dc_id 12345"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What looks wrong?
+      description: What you see, and what you expected instead.
+    validations:
+      required: true
