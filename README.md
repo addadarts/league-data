@@ -15,6 +15,8 @@ date range, row counts, checksums and which columns/rows were removed), and read
 [`GOTCHAS.md`](GOTCHAS.md) before computing anything; [`COLUMNS.md`](COLUMNS.md) defines the columns (including [ADDAs](COLUMNS.md#addas), ADDA's own high-score-turn measure, from the live [season-stats FAQ](https://addadarts.com/season-stats)), and [`RECAPS.md`](RECAPS.md) explains how to read the
 per-match recap pages the match logs link to (where per-leg / per-turn detail lives).
 
+**Freshness.** This repository is updated daily in the early morning (US Eastern), typically reflecting matches through the previous day; there is no guaranteed schedule. The manifest's `as_of` and each file's `archived_at` say what a given build reflects.
+
 ## Structure: `dartconnect/` vs `adda/` (and a reserved `legacy/`)
 
 The corpus is split by **who the data belongs to**:
