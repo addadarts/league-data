@@ -4,7 +4,7 @@
 `players.csv` rows published under `dartconnect/`. This is the part of the corpus that spans sources: it is how
 a row in a DartConnect file is tied to a person or team on addadarts.com (see the top-level README for the link recipe).
 
-**As of** the date in the `as_of` column / `manifest.json` → `adda.as_of`. It **may be corrected on future merges**
+**As of** the date in `manifest.json` → `adda.as_of` (the crosswalk files carry no per-row `as_of`; the mapping's currency is given by the manifest's `as_of`, not per row). It **may be corrected on future merges**
 (ADDA merges duplicate person records). Rows that could not be matched are published as unresolved / ambiguous —
 never guessed. Every id column is the **first** column of its file.
 
@@ -41,7 +41,6 @@ seasons or from the canonical name. Use `players.csv` for display.
 | `match_method` | `dcid` (DC id equals the canonical record's DC id), `name+team` (name found on the canonical team roster for that season), `none` |
 | `status` | `resolved`, `ambiguous` (conflicting or multiple candidates — see `note`), `unresolved`, `placeholder` |
 | `note` | why a row is not a plain match (e.g. `dcid match; name not on canonical team roster for season`) |
-| `as_of` | date the crosswalk was built |
 
 `status = placeholder` marks DC's shared "zz Alternate zz" accounts. They carry an id when the DC id
 maps to one, but they are not people and have no player page.
@@ -49,5 +48,5 @@ maps to one, but they are not people and have no player page.
 ## `team_crosswalk.csv` columns
 
 `adda_team_id, league, season_num, dc_season_id, dc_team, division, dc_season_team_id, match_method
-(name | name(previousNames)), status, note, as_of`. `dc_season_team_id` is DC's team-season id where
+(name | name(previousNames)), status, note`. `dc_season_team_id` is DC's team-season id where
 ADDA has it on record (blank for older seasons).

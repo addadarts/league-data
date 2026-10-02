@@ -110,8 +110,7 @@ row to an id, join on `(league, season, Team, First + Last)` to that season's `p
 
 (These URL shapes are what addadarts.com uses at `as_of` in the manifest; the site can change them.)
 
-**`adda/` is ADDA's own data, not Dart Connect data, and is `as_of` a date** (column `as_of`,
-and `adda.as_of` in the manifest). ADDA merges duplicate person records over time, so an
+**`adda/` is ADDA's own data, not Dart Connect data, and is `as_of` a date** (`adda.as_of` in the manifest; not repeated per row). ADDA merges duplicate person records over time, so an
 `adda_player_id` may be corrected in a later build. Unresolved and ambiguous rows are published as
 such; nothing is guessed. Re-fetch before relying on a stored id for anything long-lived.
 

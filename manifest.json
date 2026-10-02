@@ -3430,8 +3430,8 @@
         "path": "adda/player_crosswalk.csv",
         "kind": "crosswalk",
         "rows": 1781,
-        "bytes": 165753,
-        "sha256": "ca161d54ff5a2902ceb74e8d1ed011edef8d2194b7d771d05f9be8e1f1a67ca9",
+        "bytes": 146156,
+        "sha256": "42727d6820fc6f39f01a243feffa2cc07691a526419aad2c40a309b3e370b6ba",
         "by_status": {
           "resolved": 1574,
           "placeholder": 207
@@ -3441,8 +3441,8 @@
         "path": "adda/team_crosswalk.csv",
         "kind": "crosswalk",
         "rows": 269,
-        "bytes": 17932,
-        "sha256": "9b2649d77077c67f595d2c17b22170ba4df9c860a61ce70ca46fe21b21e5f3ba",
+        "bytes": 14967,
+        "sha256": "ef6415c61dc5fc74aa0fe0f0a755ea90f844a8f93c16bae7dd40a5c614eeb983",
         "by_status": {
           "resolved": 269
         }
