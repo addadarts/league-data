@@ -97,8 +97,9 @@ placeholders especially) used to swap places between daily exports with no chang
 (sort however you need).
 
 - `players.csv` and the five leaderboard cuts: by `(Last, First, Team, Division)`, then the full row, so the
-  order is total. Comparison is by codepoint (UTF-8 bytes), not locale-aware, so capital letters sort before
-  lowercase ones (`Zz` before `lee`).
+  order is total. Comparison ignores case (`Artful Darters` before `ATLiens`, like DC's own order); values that
+  differ only in case are then ordered by codepoint (UTF-8 bytes, capitals first). It is not locale-aware, so
+  the order is the same on every machine.
 - Match logs: chronological — `(Date, Start Time, Report Link)`, then the full row.
 - `adda/` files are ordered by id (canonical) or by `(league, season, …)` (crosswalks, in published
   `players.csv` order); also deterministic.
