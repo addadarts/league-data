@@ -45,7 +45,7 @@
       "rows_out": 163,
       "bytes": 38923,
       "sha256": "92a3d04f84aa89037ff775a5a0e6cd3da992767e5acae6aa46bcf2a8bb157faa",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2024_Singles_501_SI_DO_leaderboard_05_18_24-08_01_24.csv"
     },
     {
@@ -78,7 +78,7 @@
       "rows_out": 163,
       "bytes": 31104,
       "sha256": "f9f566cbb6f6d1cb7306ae8ce253cdf239980dda189c1ec7bc15e8a6945032a1",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2024_Singles_Cricket_leaderboard_05_18_24-08_01_24.csv"
     },
     {
@@ -111,7 +111,7 @@
       "rows_out": 163,
       "bytes": 40601,
       "sha256": "5fa03562af073d0cfb835609a07d8c38b53e30cb7a0ad369dfd5760a21dd2779",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2024_all_01_leaderboard_05_18_24-08_01_24.csv"
     },
     {
@@ -144,7 +144,7 @@
       "rows_out": 163,
       "bytes": 31651,
       "sha256": "82d88302059bf418576dbf64a98a6ac9a9673809b4ad9f873d4966fae5e54186",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2024_all_cricket_leaderboard_05_18_24-08_01_24.csv"
     },
     {
@@ -177,7 +177,7 @@
       "rows_out": 163,
       "bytes": 15943,
       "sha256": "4c1a7a2ce8166b7ea7bf89395b726a80921fd93c9d5ca1e961991eba6dd7795e",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2024_all_leaderboard_05_18_24-08_01_24.csv"
     },
     {
@@ -207,7 +207,7 @@
       "rows_out": 180,
       "bytes": 13153,
       "sha256": "8bdaf1c7273a5bc49ce2517320a479c94bbb023e72b5bb2146f81cc61f1d1847",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2024_players.csv"
     },
     {
@@ -236,7 +236,7 @@
       "rows_out": 15,
       "bytes": 3422,
       "sha256": "7603c9465f9dfd281e07bcd1d8e14d3f824c3dba3f49dd11f466c118ca275187",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Summer_2024_Match_Log_export-POST.csv"
     },
     {
@@ -266,7 +266,7 @@
       "rows_out": 110,
       "bytes": 26789,
       "sha256": "805642a480c21494691c21f8f8fe0e911de95cfdba661ad6bf5e68633ab106ed",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Summer_2024_Match_Log_export.csv"
     },
     {
@@ -299,7 +299,7 @@
       "rows_out": 164,
       "bytes": 38803,
       "sha256": "1870cc3de234572eead2ae3df1b324b1c27b5edefa0c67fb9edd300be669ce08",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2024_Singles_501_SI_DO_leaderboard_09_01_24-11_30_24.csv"
     },
     {
@@ -332,7 +332,7 @@
       "rows_out": 164,
       "bytes": 31222,
       "sha256": "999e2f97df7aed53261468e1b782d7b29a3cf277cdce88904dc53f4289e52443",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2024_Singles_Cricket_leaderboard_09_01_24-11_30_24.csv"
     },
     {
@@ -365,7 +365,7 @@
       "rows_out": 164,
       "bytes": 40663,
       "sha256": "afb3bde05b9407e68800979a54fd1e4ba94624a235682d08d701bff82eddf3a0",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2024_all_01_leaderboard_09_01_24-11_30_24.csv"
     },
     {
@@ -398,7 +398,7 @@
       "rows_out": 164,
       "bytes": 31739,
       "sha256": "0f06935e8e4db1ee58087746eada236583a3deba3c2d10c38caac540d6283240",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2024_all_cricket_leaderboard_09_01_24-11_30_24.csv"
     },
     {
@@ -431,7 +431,7 @@
       "rows_out": 164,
       "bytes": 16003,
       "sha256": "61a8cd470c3149096045070c2a9ab0acb81873464bbafad2346dc3ea858fed35",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2024_all_leaderboard_09_01_24-11_30_24.csv"
     },
     {
@@ -461,7 +461,7 @@
       "rows_out": 187,
       "bytes": 13838,
       "sha256": "f6b15d7e7277d5ef868652e0e8f7764d7b649e6d1d19b1280d6ec580ceffe217",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2024_players.csv"
     },
     {
@@ -490,7 +490,7 @@
       "rows_out": 13,
       "bytes": 3048,
       "sha256": "088d98bb4bf177d3d551981c4c983a5485befe5abd5ab6fdc48c176097f7698a",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Fall_2024_Match_Log_export-POST.csv"
     },
     {
@@ -520,7 +520,7 @@
       "rows_out": 110,
       "bytes": 26620,
       "sha256": "b11f93fb422a9052e03cb83fd6a4e37b78b5b4c67b6afd63e394084437ba2863",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Fall_2024_Match_Log_export.csv"
     },
     {
@@ -552,7 +552,7 @@
       "rows_out": 165,
       "bytes": 39281,
       "sha256": "e5f4331141d4d68756e905934f6214b13a13198940754f35a89c4e9e9103413e",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_Singles_501_SI_DO_leaderboard_01_17_25-04_05_25.csv"
     },
     {
@@ -582,7 +582,7 @@
       "rows_out": 169,
       "bytes": 40300,
       "sha256": "479427a3784e395376ae295cbe0c61ab44baac625a660ddb96e2c958227d7083",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_Singles_501_SI_DO_leaderboard_01_17_25-04_25_25.csv"
     },
     {
@@ -614,7 +614,7 @@
       "rows_out": 165,
       "bytes": 31497,
       "sha256": "36f1e144d18f68fb6e2aa61df261bfb7f072d351fbd67a4bc18127e75ce361b5",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_Singles_Cricket_leaderboard_01_17_25-04_05_25.csv"
     },
     {
@@ -644,7 +644,7 @@
       "rows_out": 169,
       "bytes": 32127,
       "sha256": "ebfe81edec7758a60e6231bd81a08ceab86788f10a309637701dee79a06268cb",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_Singles_Cricket_leaderboard_01_17_25-04_25_25.csv"
     },
     {
@@ -676,7 +676,7 @@
       "rows_out": 165,
       "bytes": 40953,
       "sha256": "3aa74d05dd1b45a557b13a56f627d09d5fa0b10a5d549bea7b47bd3dd4e6d446",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_all_01_leaderboard_01_17_25-04_05_25.csv"
     },
     {
@@ -706,7 +706,7 @@
       "rows_out": 169,
       "bytes": 42178,
       "sha256": "7dd3b51a91566d8041d2f3494881badd310a4ca4ae132461cc958a948bac35a4",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_all_01_leaderboard_01_17_25-04_25_25.csv"
     },
     {
@@ -738,7 +738,7 @@
       "rows_out": 165,
       "bytes": 31850,
       "sha256": "bdfc900858bd613c51aae93801c0aab4cc6a2f9efd86988239059de784249fba",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_all_cricket_leaderboard_01_17_25-04_05_25.csv"
     },
     {
@@ -768,7 +768,7 @@
       "rows_out": 169,
       "bytes": 32970,
       "sha256": "7e8d95228ad783bc7438304757f9ede395337db1809ddec2d3033ba00d74b788",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_all_cricket_leaderboard_01_17_25-04_25_25.csv"
     },
     {
@@ -800,7 +800,7 @@
       "rows_out": 165,
       "bytes": 16152,
       "sha256": "7b29af7d0f3ed73dc5982211431ba244ce778d98259eb0297a86e47f79225153",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_all_leaderboard_01_17_25-04_05_25.csv"
     },
     {
@@ -830,7 +830,7 @@
       "rows_out": 169,
       "bytes": 16633,
       "sha256": "b3567352debeabdf3083e70cf5947625de5d3f008a2244e97f63826bc3eeb733",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_all_leaderboard_01_17_25-04_25_25.csv"
     },
     {
@@ -860,7 +860,7 @@
       "rows_out": 205,
       "bytes": 15027,
       "sha256": "ac6a4cba1564b42ccae8d34cc7f065de1c9a12fb25c044e73212eb22273a9a03",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Winter_Spring_2025_players.csv"
     },
     {
@@ -889,7 +889,7 @@
       "rows_out": 13,
       "bytes": 2951,
       "sha256": "e550b0f49fc6ecdc381b7c5f81ecba803f5f81b9026a08d6346e216f512c11f4",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Winter_Spring_2025_Match_Log_export-POST.csv"
     },
     {
@@ -919,7 +919,7 @@
       "rows_out": 132,
       "bytes": 31911,
       "sha256": "2a6459b8001c29e835a3b08f4af0ff72597f1383b3c5c052abe19ba7abdea9ff",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Winter_Spring_2025_Match_Log_export.csv"
     },
     {
@@ -952,7 +952,7 @@
       "rows_out": 159,
       "bytes": 38195,
       "sha256": "f9161756365e0d64e247bbaafad62e80e26d7294cf874399a05b889a3f880810",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2025_Singles_501_SI_DO_leaderboard_05_18_25-08_05_25.csv"
     },
     {
@@ -985,7 +985,7 @@
       "rows_out": 159,
       "bytes": 30297,
       "sha256": "4271a9c5002146f268c56225a3d5cdb779b0deade32298898d7413f9e94c6c10",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2025_Singles_Cricket_leaderboard_05_18_25-08_05_25.csv"
     },
     {
@@ -1018,7 +1018,7 @@
       "rows_out": 159,
       "bytes": 39894,
       "sha256": "e982232ac540ce017e4137433ccd44bfcbb0866e28e0b0d171e583a668c5f356",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2025_all_01_leaderboard_05_18_25-08_05_25.csv"
     },
     {
@@ -1051,7 +1051,7 @@
       "rows_out": 159,
       "bytes": 30827,
       "sha256": "4f88a25a2077308f83b08cd618e7277f56e41f026885bac158df03cbd90acf76",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2025_all_cricket_leaderboard_05_18_25-08_05_25.csv"
     },
     {
@@ -1084,7 +1084,7 @@
       "rows_out": 159,
       "bytes": 15592,
       "sha256": "bd93b31594562424e53d4f9cc02eb5a3113b2c158fc226bc699314b18902a27d",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2025_all_leaderboard_05_18_25-08_05_25.csv"
     },
     {
@@ -1114,7 +1114,7 @@
       "rows_out": 197,
       "bytes": 14536,
       "sha256": "704d971e54b7e5b84aa98dd9e838b2a801ea8f05b3b59b5b347475b742b41425",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Summer_2025_players.csv"
     },
     {
@@ -1144,7 +1144,7 @@
       "rows_out": 18,
       "bytes": 4050,
       "sha256": "1d9f55cfe81b48b0393da888f26e185c6c025bc68ec8e5e5993441af149130c7",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Summer_2025_Match_Log_export-POST.csv"
     },
     {
@@ -1174,7 +1174,7 @@
       "rows_out": 120,
       "bytes": 28900,
       "sha256": "819118829ca6b27e74580761496658760c9429c22fd43d7613a0442e3395a4d3",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Summer_2025_Match_Log_export.csv"
     },
     {
@@ -1208,7 +1208,7 @@
       "rows_out": 190,
       "bytes": 44836,
       "sha256": "924424eac8f401848b8656799866f2ec54fe9c39b085c5b9964ef0523b33e398",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2025_Singles_501_SI_DO_leaderboard_09_14_25-12_02_25.csv"
     },
     {
@@ -1242,7 +1242,7 @@
       "rows_out": 190,
       "bytes": 36016,
       "sha256": "c1bccaa0d8faafb595bcabdde18c4fd5dde73a13e6d31bc01da5dcb2a8dff4ea",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2025_Singles_Cricket_leaderboard_09_14_25-12_02_25.csv"
     },
     {
@@ -1276,7 +1276,7 @@
       "rows_out": 190,
       "bytes": 47140,
       "sha256": "7e33bb2494df839fbdf7bf8887ac5b83fda31727e54579413c0b0068755749f6",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2025_all_01_leaderboard_09_14_25-12_02_25.csv"
     },
     {
@@ -1310,7 +1310,7 @@
       "rows_out": 190,
       "bytes": 36581,
       "sha256": "3eea486806673f4568734c8676458bbdbc8bafb5129938fffb1515a40c5d45c9",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2025_all_cricket_leaderboard_09_14_25-12_02_25.csv"
     },
     {
@@ -1344,7 +1344,7 @@
       "rows_out": 190,
       "bytes": 18448,
       "sha256": "933adf2e32745329448a8f53bc23a5c667e5e29dedc867e68f498915726ac906",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2025_all_leaderboard_09_14_25-12_02_25.csv"
     },
     {
@@ -1374,7 +1374,7 @@
       "rows_out": 214,
       "bytes": 15439,
       "sha256": "b350a8733d2f484e84dd615e11db1464bc0a68e6dafa4abaf7c7434babbf484b",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Fall_2025_players.csv"
     },
     {
@@ -1403,7 +1403,7 @@
       "rows_out": 13,
       "bytes": 3054,
       "sha256": "92cc908cf9d3f5920028559b8eb24bb7658e1cc2e38c4c5b3aeede4543f63a76",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Fall_2025_Match_Log_export-POST.csv"
     },
     {
@@ -1434,7 +1434,7 @@
       "rows_out": 125,
       "bytes": 30127,
       "sha256": "761685ad8fd41b971a23609acc1339698142610c67d55dd0ece1bb6d5148fa13",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Fall_2025_Match_Log_export.csv"
     },
     {
@@ -1467,7 +1467,7 @@
       "rows_out": 178,
       "bytes": 42537,
       "sha256": "94fa5f784dee37981d5bfd0a6675d3d5cbc3d0defe9507447dc9f7f738289d6d",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Spring_2026_Singles_501_SI_DO_leaderboard_01_25_26-04_14_26.csv"
     },
     {
@@ -1500,7 +1500,7 @@
       "rows_out": 178,
       "bytes": 33996,
       "sha256": "33adcb86e067bfeb59b3ade720d250675588160846eef47bbfe0478f4fcf6d08",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Spring_2026_Singles_Cricket_leaderboard_01_25_26-04_14_26.csv"
     },
     {
@@ -1533,7 +1533,7 @@
       "rows_out": 178,
       "bytes": 44655,
       "sha256": "3cdfaf0695944e0afa52ef53b4677b086fdff8fe624585823ee04a1159f63c43",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Spring_2026_all_01_leaderboard_01_25_26-04_14_26.csv"
     },
     {
@@ -1566,7 +1566,7 @@
       "rows_out": 178,
       "bytes": 34423,
       "sha256": "e3cbf1a55a5fcd1aa66bfc8c0200ffb3e94857ad44e4fa324540e67a88533365",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Spring_2026_all_cricket_leaderboard_01_25_26-04_14_26.csv"
     },
     {
@@ -1599,7 +1599,7 @@
       "rows_out": 178,
       "bytes": 17397,
       "sha256": "f4db8aa96dcf32544ea28b9ee21e1ccdbac0c9e8611c2142041fb11c5ecf6987",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Spring_2026_all_leaderboard_01_25_26-04_14_26.csv"
     },
     {
@@ -1629,7 +1629,7 @@
       "rows_out": 213,
       "bytes": 15335,
       "sha256": "c57d20738c92874e342ad027405d3500afbb150a179ca1a82fc8408c1f472109",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDA_Spring_2026_players.csv"
     },
     {
@@ -1658,7 +1658,7 @@
       "rows_out": 18,
       "bytes": 4794,
       "sha256": "03858e39ef7636d5d9dc130953cefaf0e3a42c53075f60636c8a80d25e18f2d3",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-13",
       "source_file": "Spring_2026_Match_Log_export-POST.csv"
     },
     {
@@ -1688,7 +1688,7 @@
       "rows_out": 126,
       "bytes": 30373,
       "sha256": "fafb4aec82fa8e0a92267a6d8beba586b472b6bd407d2da6b4545ff3557e370d",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Spring_2026_Match_Log_export.csv"
     },
     {
@@ -1722,7 +1722,7 @@
       "rows_out": 203,
       "bytes": 49631,
       "sha256": "825c74f5fa648539771acd9520d79256a6341f1d51d8609738a022333d559fb0",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-09-03",
       "source_file": "ADDA_Summer_2026_Singles_501_SI_DO_leaderboard_05_10_26-07_31_26.csv"
     },
     {
@@ -1756,7 +1756,7 @@
       "rows_out": 203,
       "bytes": 38384,
       "sha256": "1c60ad1ecdd2a1c46b74de9c238bd9259b61e67774050d3d9570f2cca47949d2",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-09-03",
       "source_file": "ADDA_Summer_2026_Singles_Cricket_leaderboard_05_10_26-07_31_26.csv"
     },
     {
@@ -1790,7 +1790,7 @@
       "rows_out": 203,
       "bytes": 51741,
       "sha256": "033210166b27309c21234360f87a0fb116a500ee6843a1ae2ca2efa5b04b6c7f",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-09-03",
       "source_file": "ADDA_Summer_2026_all_01_leaderboard_05_10_26-07_31_26.csv"
     },
     {
@@ -1824,7 +1824,7 @@
       "rows_out": 203,
       "bytes": 39267,
       "sha256": "21e45403d28c5dad42744a5884242e7ce4eeb0b0bea6ac1f0534d38c9354f9ce",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-09-03",
       "source_file": "ADDA_Summer_2026_all_cricket_leaderboard_05_10_26-07_31_26.csv"
     },
     {
@@ -1858,7 +1858,7 @@
       "rows_out": 203,
       "bytes": 19756,
       "sha256": "88fe0c5ed014d7ba30e70846225c64962bda01e761da9abeecb95f428fe01e7c",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-09-03",
       "source_file": "ADDA_Summer_2026_all_leaderboard_05_10_26-07_31_26.csv"
     },
     {
@@ -1888,7 +1888,7 @@
       "rows_out": 228,
       "bytes": 17225,
       "sha256": "fb61690a98bd9b6f6bdccf85e054b8bba2de6de09e5c83da9667f0a697b76d82",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-09-03",
       "source_file": "ADDA_Summer_2026_players.csv"
     },
     {
@@ -1917,7 +1917,7 @@
       "rows_out": 16,
       "bytes": 4220,
       "sha256": "0b204d90a00904249df5d8d98a998085e0304663b4ee3f70af005add20791e58",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-09-03",
       "source_file": "Summer_2026_Match_Log_export-POST.csv"
     },
     {
@@ -1948,7 +1948,7 @@
       "rows_out": 140,
       "bytes": 33748,
       "sha256": "37fa87c50697dd8395d96782b8637a473db6f35022650404df84502e1ebd8f99",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-09-03",
       "source_file": "Summer_2026_Match_Log_export.csv"
     },
     {
@@ -2353,7 +2353,7 @@
       "rows_out": 26,
       "bytes": 2229,
       "sha256": "a75f952145bdc7190f651472d9e2c3c7e62e98d7de09489b157ffd275c0a2a92",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDACL_Fall_2024_players.csv"
     },
     {
@@ -2380,7 +2380,7 @@
       "rows_out": 7,
       "bytes": 1667,
       "sha256": "187af190b342ac13fa9d4c34101545259c699e481eaa72b68771f5aed088f360",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Fall_2024_Match_Log_export-POST.csv"
     },
     {
@@ -2407,7 +2407,7 @@
       "rows_out": 78,
       "bytes": 17780,
       "sha256": "dcbcb21fb16f02b341ed2e917bc9aec4870e7c90675d460f7208012f28cdd040",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Fall_2024_Match_Log_export.csv"
     },
     {
@@ -2581,7 +2581,7 @@
       "rows_out": 24,
       "bytes": 2072,
       "sha256": "a3be2eceee00e142b50eb28e2eff6fac2bf028e624c9d27cacbeef247e222fce",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDACL_Winter_Spring_2025_players.csv"
     },
     {
@@ -2608,7 +2608,7 @@
       "rows_out": 7,
       "bytes": 1654,
       "sha256": "f32cdc99de670db93b1dc633831b1526a45968fd7759ff7f01bee87c8d340892",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Winter_Spring_2025_Match_Log_export-POST.csv"
     },
     {
@@ -2635,7 +2635,7 @@
       "rows_out": 66,
       "bytes": 16170,
       "sha256": "bd08538181a6fc5c084d1230a5dc3f25c9484c7883d832a4f775d24c871d2ded",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Winter_Spring_2025_Match_Log_export.csv"
     },
     {
@@ -2809,7 +2809,7 @@
       "rows_out": 24,
       "bytes": 2048,
       "sha256": "21c09565b15a9c7c4fde0b70324d197de5848d10921eefa88fa5f58d617047a1",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "ADDACL_Fall_2025_players.csv"
     },
     {
@@ -2836,7 +2836,7 @@
       "rows_out": 6,
       "bytes": 1438,
       "sha256": "3485cd3e57f89852a706ea44b737987ccdfbef2c25c2693cb78c3d8fe6ed8609",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Fall_2025_Match_Log_export-POST.csv"
     },
     {
@@ -2863,7 +2863,7 @@
       "rows_out": 66,
       "bytes": 16081,
       "sha256": "cac79f7e1e456a260098d6c2d9ff0364b06361252a2871e61f68ec9ec676abe4",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-05-01",
       "source_file": "Fall_2025_Match_Log_export.csv"
     },
     {
@@ -3037,7 +3037,7 @@
       "rows_out": 22,
       "bytes": 1946,
       "sha256": "bbe3ba467019643f0c92d2110974fc17bc7812b4a34256f1871f6e56b93bf66f",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-07-28",
       "source_file": "ADDACL_Spring_2026_players.csv"
     },
     {
@@ -3064,7 +3064,7 @@
       "rows_out": 6,
       "bytes": 1667,
       "sha256": "cfc59fa07cd88e7c3d6c6ed07259e279bb9f0c090e2550becd08a52c9f758700",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-07-26",
       "source_file": "Spring_2026_Match_Log_export-POST.csv"
     },
     {
@@ -3091,7 +3091,7 @@
       "rows_out": 55,
       "bytes": 13445,
       "sha256": "04720611b4474caa1b0f9bd51849e5d2c5531f10c0baa11b5173e0eaa5ee3bc7",
-      "archived_at": "2026-10-08",
+      "archived_at": "2026-07-28",
       "source_file": "Spring_2026_Match_Log_export.csv"
     },
     {
