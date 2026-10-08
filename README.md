@@ -70,7 +70,8 @@ has two sets of leaderboards, `…__div_ABC.csv` and `…__div_D.csv` — see GO
 ## The five deviations from Dart Connect's files
 
 Everything else — column order, quoting, values, line endings — is DC's, byte for byte. Rows and columns
-are only ever *removed*, never edited or reordered. The build refuses any
+are only ever *removed*, never edited; the one other thing done to the files is the row-order normalization
+described under [Row order](#row-order) (order only, not content). The build refuses any
 input whose header contains a column it does not recognise.
 
 | # | Deviation | Applies to | Effect |
@@ -84,7 +85,23 @@ input whose header contains a column it does not recognise.
 Machine-readable: `manifest.json` → `deviations` lists all five (`league_id_column_dropped` is the fourth, `league_status_season_status_columns_dropped` the fifth).
 Each manifest entry lists `columns_removed`, `rows_in` (DC's row count) and `rows_out` (published).
 Rows with a blank `Matches` value in a leaderboard cut are **kept** — they are players who did not play
-that cut, not inactive players. Match logs are published unchanged (recap links included).
+that cut, not inactive players. Match logs are published with their cells unchanged (recap links included); only the row order is normalized.
+
+### Row order
+
+Not a content deviation, and distinct from the five above: **rows are published in a deterministic sort** so
+that re-fetching an unchanged season produces byte-identical files and clean diffs. DC's export orders rows by
+last then first name but does not break ties further, so same-name rows (the shared `Zz` / `ZZ Alternate`
+placeholders especially) used to swap places between daily exports with no change in the data. This changes
+**order only** — every cell is DC's, byte for byte — and consumers should not rely on DC's original order
+(sort however you need).
+
+- `players.csv` and the five leaderboard cuts: by `(Last, First, Team, Division)`, then the full row, so the
+  order is total. Comparison is by codepoint (UTF-8 bytes), not locale-aware, so capital letters sort before
+  lowercase ones (`Zz` before `lee`).
+- Match logs: chronological — `(Date, Start Time, Report Link)`, then the full row.
+- `adda/` files are ordered by id (canonical) or by `(league, season, …)` (crosswalks, in published
+  `players.csv` order); also deterministic.
 
 ## IDs, and how to link a row to addadarts.com
 

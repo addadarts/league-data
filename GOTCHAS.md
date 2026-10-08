@@ -24,6 +24,9 @@ Read these before joining, aggregating, or comparing across seasons.
 
 ## What is (not) in the files
 
+0. **Row order is ADDA's, not DC's.** Files are published in a deterministic sort (README "Row order") so that
+   unchanged data gives unchanged files. Don't infer anything from a row's position; the cells are DC's as-is.
+
 7. **Regular season only for leaderboards.** There are no post-season leaderboards; post-season exists only
    as `matchlog_post.csv`.
 8. **`all_01` includes `singles_501`.** Do not add cuts together — you will double-count. `all_cricket`

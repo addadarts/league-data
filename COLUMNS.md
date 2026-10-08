@@ -131,7 +131,7 @@ Header: `"Last","First",["Gender",]"Team","Division","Legs","Matches","Sets","Le
 | `Set Losses` | Sets lost. **[verified]** |
 | `Set Win%` | Set win % = `Swon / Sets`; a tied set counts as **zero** (not half) — GOTCHAS #24. **[verified]** |
 
-## `matchlog_reg.csv` / `matchlog_post.csv` (DC match log — published byte-for-byte)
+## `matchlog_reg.csv` / `matchlog_post.csv` (DC match log — published cell-for-cell; rows sorted chronologically — see README "Row order")
 
 Header: `"Report","League ID","Day","Date","Source","Season","Division","Away/Guest @ Home/Host","Set Score","Legs Score","League Points","Start Time","End Time","Duration","DER","","Report Link","Event Link"`
 
