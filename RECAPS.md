@@ -90,7 +90,7 @@ Observed keys that are useful (values are mostly **strings**, including numbers 
 | `league_id`, `event_title`, `division_title` | e.g. `ADDA`, `Spring 2026`, `Division: B`. |
 | `server_match_start_date` | e.g. `Mon, 26-Jan-2026`. |
 | `match_start_date`, `match_end_date` | Clock times, 12-hour (`7:55 PM`). Correspond to the log's `Start Time` / `End Time`. |
-| `match_length` (and `game_time`) | `HH:MM` of **playing time**. **[verified]** The match log's `Duration` column is this value **in minutes** (ADDA Spring 2026, 125 of 125 matches checked: equal, or 1 minute higher from rounding). It is *not* end − start. |
+| `match_length` (and `game_time`) | `HH:MM`: the time each set took, added up — for a normal match, the sum of the per-leg `duration` clocks. **[verified]** The match log's `Duration` column is this value **in minutes** (ADDA Spring 2026, 125 of 125 matches checked: equal, or 1 minute higher from rounding). It is *not* end − start: sets played at the same time on different boards each add their own time, so it is usually longer (GOTCHAS #28). |
 | `der` | A number such as `100`. **[verified]** identical to the match log's `DER` column (same 125 of 125). Its meaning is not documented by DC. |
 | `opponents[]` | Two objects (one per side): `name`, `set_wins`, `leg_wins`, `league_points`, `ppr`, `mpr`, `darts_thrown_ppr`, `darts_thrown_mpr`, `points_scored_ppr`, `marks_scored`. |
 | `match_winner` | `0` or `1`, index into `opponents`. |
