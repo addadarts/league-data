@@ -144,9 +144,15 @@ Templates are provided, but a blank issue is fine too.
 
 ## How to cite
 
+### Dart Connect data (`dartconnect/`)
+
 > Dart Connect league exports for the Atlanta-Decatur Dart Association (ADDA / ADDACL), archived and
 > published by ADDA. `<repository URL>`, commit `<hash>`, manifest `as_of` `<date>`. Source: Dart Connect,
 > https://dartconnect.com (terms: https://www.dartconnect.com/league-administrator-updates/export-leaderboard/).
+
+### ADDA data (`adda/`)
+
+> Atlanta-Decatur Dart Association, ADDA canonical players/teams and crosswalks. `<repository URL>`, commit `<hash>`.
 
 Cite the specific season(s) and `sha256` from the manifest if reproducibility matters.
 
@@ -160,7 +166,7 @@ does not license it. Its removals (the five deviations) are the only changes ADD
 **`adda/` — ADDA's own data.** The canonical players/teams files and the crosswalks are ADDA's work and ADDA's to license; together with the documentation
 (`README.md`, `GOTCHAS.md`, `COLUMNS.md`, `RECAPS.md`, `adda/README.md`) they are published under
 [**Creative Commons Attribution 4.0 International (CC BY 4.0)**](https://creativecommons.org/licenses/by/4.0/).
-Credit ADDA and Dart Connect per "How to cite" above. (The `adda/` files contain no Dart Connect-sourced values
+Credit ADDA per "How to cite" above. (The `adda/` files contain no Dart Connect-sourced values
 beyond the DC ids and names needed to join to them.)
 
 If your use goes beyond typical league-stat browsing or hobby analysis, confirm with Dart Connect first.
