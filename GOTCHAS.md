@@ -42,9 +42,9 @@ Read these before joining, aggregating, or comparing across seasons.
 11. **`Position` is always blank** in DC's roster export, all seasons and both leagues. It carries no
     gender or lineup information. (The build refuses to publish a non-blank value without review.)
 12. **`Venue` is a bar/venue name**, never a street address (every published value is a venue name).
-13. **Gender lives in `adda/players.csv`**, which publishes `gender` for every player in both leagues (`M`/`F`, occasionally `U`; blank = not recorded). It also
-    remains in the ADDACL (coed) DartConnect roster and leaderboard files under `dartconnect/addacl/`; the ADDA `dartconnect/` files don't carry a `Gender` column — use `adda/players.csv`.
-    Treat it as a registration field, not a verified attribute.
+13. **For gender, use `adda/players.csv`**, which publishes `gender` for every player in both leagues (`M`/`F`, occasionally `U`; blank = not recorded). DC's own
+    `Gender` column is also kept, as DC has it, in both leagues' roster and leaderboard files under `dartconnect/`, but it is a per-season snapshot: it is
+    sometimes `U` or blank where the canonical value is known, and occasionally differs from it. Treat either as a registration field, not a verified attribute.
 
 ## Seasons and cuts
 

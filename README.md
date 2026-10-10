@@ -56,7 +56,6 @@ It is **DC's season-specific roster snapshot**: what was in DartConnect during t
 to (a) match leaderboard rows to an `adda_player_id` through `adda/player_crosswalk.csv`, and (b) read the season's
 team → division, team → venue and team → captain assignments. It is **not** canonical or authoritative — it is
 mutable, point-in-time data. For who a person *is* (name, gender, id), use `adda/players.csv`.
-Gender is published for **every** player (both leagues) in `adda/players.csv`; it also remains in the ADDACL DartConnect roster and leaderboard files, while the ADDA `dartconnect/` files do not carry a `Gender` column.
 
 ### Canonical name vs. season name
 

@@ -26,8 +26,8 @@ Blank cells mean "no value" — for the leaderboards that means the player did n
 
 DC's **season-specific roster snapshot** — what was in DartConnect during that season's active window. It is mutable, point-in-time data, **not** the canonical player record (that is [`adda/players.csv`](#adda-canonical-files)).
 
-Header as published: `"ID","First Name","Last Name","Division","Team","Captain","Venue","Position"`
-(ADDACL's file also has `"Gender"` between `"Venue"` and `"Position"`; ADDA's does not — gender for every player is in `adda/players.csv`. Removed columns are listed in the README's deviation ledger.)
+Header as published: `"ID","First Name","Last Name","Division","Team","Captain","Venue","Gender","Position"`
+(Removed columns are listed in the README's deviation ledger.)
 
 | Column | Meaning |
 |--------|---------|
@@ -37,7 +37,7 @@ Header as published: `"ID","First Name","Last Name","Division","Team","Captain",
 | `Team` | Team name that season. **[verified]** (matches the leaderboards' `Team`) |
 | `Captain` | `Captain` / `Co-Captain` / blank. **[inferred]** |
 | `Venue` | The team's home venue name (GOTCHAS #12). **[inferred]** |
-| `Gender` | ADDACL files only (`M`/`F`/`U`/blank); for all players in both leagues see `gender` in `adda/players.csv`. **[inferred]** registration field. |
+| `Gender` | `M`/`F`/`U`/blank, as entered in DC that season (both leagues). The canonical `gender` in `adda/players.csv` is authoritative; DC's value is sometimes `U` or blank where that one is known, and occasionally differs (GOTCHAS #13). **[inferred]** registration field. |
 | `Position` | Always blank (GOTCHAS #11). **[verified]** |
 
 `League Id` is deliberately **not published** (README deviation 4): use `adda_player_id` from `adda/player_crosswalk.csv`. `League Status` and
@@ -49,7 +49,7 @@ Cuts: `singles_501` (DC `Singles_501_SI_DO`), `all_01`, `singles_cricket`, `all_
 
 | Column | Meaning |
 |--------|---------|
-| `Last`, `First`, `Gender`, `Team`, `Division` | Identity/team of the row. `Gender` only for ADDACL. No player id — GOTCHAS #1. **[verified]** |
+| `Last`, `First`, `Gender`, `Team`, `Division` | Identity/team of the row (`Gender` as in the roster; see `players.csv` above). No player id — GOTCHAS #1. **[verified]** |
 | `Matches` | Matches the player played in this cut. **[inferred]** |
 | `Legs` | Legs played in this cut. **[verified]**: `LWD + LAD = Legs` on all 3,313 01-cut rows. |
 | `LWon` | Legs won. **[verified]**: `LWD Wins + LAD Wins = LWon`; `Legs Win = 100 × LWon / Legs`. |
@@ -115,7 +115,7 @@ column.
 
 ## `leaderboard_match_record.csv` (DC's `all` cut)
 
-Header: `"Last","First",["Gender",]"Team","Division","Legs","Matches","Sets","Legs Win","Swon","STied","Match Wins","Match Ties","Leg Losses","LW%","Set Losses","Set Win%"`
+Header: `"Last","First","Gender","Team","Division","Legs","Matches","Sets","Legs Win","Swon","STied","Match Wins","Match Ties","Leg Losses","LW%","Set Losses","Set Win%"`
 
 | Column | Meaning |
 |--------|---------|
@@ -226,7 +226,7 @@ One row per `adda_player_id` (one per person, across both leagues and pre-DC his
 |--------|---------|
 | `adda_player_id` | ADDA's canonical player id (the id addadarts.com uses). |
 | `name` | The correct / current name for the person. Prefer it over any season-specific spelling. |
-| `gender` | `M` / `F` / `U` / blank (blank = not recorded). Published for **every** player, in both leagues — this is the one place gender is published for ADDA players. A registration-style field, not a verified attribute. |
+| `gender` | `M` / `F` / `U` / blank (blank = not recorded). Published for **every** player, in both leagues, and the authoritative value (DC's per-season `Gender` in the `dartconnect/` files can differ — GOTCHAS #13). A registration-style field, not a verified attribute. |
 
 The file lists every player in ADDA's canonical records, including some who never appear in a DC season file
 and the per-team `zz Alternate zz` placeholder records (GOTCHAS #5).
