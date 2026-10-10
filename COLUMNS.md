@@ -220,7 +220,7 @@ ADDA's own layer (not DartConnect data; see the README). Every id column is firs
 
 ### `adda/players.csv` — canonical players
 
-One row per `adda_player_id` (one per person, across both leagues and pre-DC history).
+One row per `adda_player_id` (one per person, across both leagues).
 
 | Column | Meaning |
 |--------|---------|
@@ -228,8 +228,8 @@ One row per `adda_player_id` (one per person, across both leagues and pre-DC his
 | `name` | The correct / current name for the person. Prefer it over any season-specific spelling. |
 | `gender` | `M` / `F` / `U` / blank (blank = not recorded). Published for **every** player, in both leagues, and the authoritative value (DC's per-season `Gender` in the `dartconnect/` files can differ — GOTCHAS #13). A registration-style field, not a verified attribute. |
 
-The file lists every player in ADDA's canonical records, including some who never appear in a DC season file
-and the per-team `zz Alternate zz` placeholder records (GOTCHAS #5).
+The file lists every player on a roster in a published season (every `adda_player_id` that
+`player_crosswalk.csv` links to), including the per-team `zz Alternate zz` placeholder records (GOTCHAS #5).
 
 ### `adda/teams.csv` — canonical teams
 
