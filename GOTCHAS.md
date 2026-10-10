@@ -99,3 +99,16 @@ Read these before joining, aggregating, or comparing across seasons.
     Per-match and per-leg opponent detail (who threw against whom) is only available behind the recap links in the
     match logs (`Report Link`); see [`RECAPS.md`](RECAPS.md) for how to read those pages (they are Dart
     Connect's — mind their terms and rate limits).
+28. **How long a match took: neither `Duration` nor `End Time − Start Time` is reliable on its own.** `Duration`
+    is the time each set took, added up — not elapsed time. Sets run at the same time on different boards, so on a
+    normal night `Duration` is *longer* than `End Time − Start Time` (median +36 minutes). Two kinds of outlier,
+    out of 1,324 matches with times (as of October 2026):
+    - **`End Time` earlier than `Start Time` (45 matches):** the match was closed on a later day, and the log gives
+      no end date, so the elapsed time can't be computed (e.g. ADDACL 27, 9/10/2026, ATLiens @ Recovering Catholics:
+      `20:8` to `11:40`, `Duration` 98).
+    - **`Duration` over 10 hours (15 matches, 10 of them also closed on a later day):** most likely a set left open
+      in the app, whose time kept counting — up to 60,530 minutes, about 42 days (ADDA 59 post-season, 4/7/2025,
+      Inner Voice @ Off in the Woods). The per-leg clocks on its recap page add up to far less.
+
+    For elapsed time, use `End Time − Start Time` when the end is later than the start; for playing time, use
+    `Duration`, but check it is plausible first. `League Portal` rows (#21) have no times, `Duration` or `DER` at all.
