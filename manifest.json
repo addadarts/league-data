@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-20",
   "source": {
     "name": "Dart Connect",
     "url": "https://league.dartconnect.com",
@@ -1930,11 +1930,11 @@
       "columns_removed": [
         "Country"
       ],
-      "rows_in": 186,
-      "rows_out": 186,
-      "bytes": 45118,
-      "sha256": "4a82c9b6d6344de456e6f4a52ba48ffa56c1694b6ab2cfae86c027a75368e7ae",
-      "archived_at": "2026-10-17",
+      "rows_in": 190,
+      "rows_out": 190,
+      "bytes": 46116,
+      "sha256": "cbd3c81eb4c5cc3af22ce889b8f7aa1bd09ae60665d101fb11e17b312baa51cc",
+      "archived_at": "2026-10-20",
       "source_file": "ADDA_Fall_2026_Singles_501_SI_DO_leaderboard_09_14_26-11_17_26.csv"
     },
     {
@@ -1963,11 +1963,11 @@
       "columns_removed": [
         "Country"
       ],
-      "rows_in": 186,
-      "rows_out": 186,
-      "bytes": 35494,
-      "sha256": "806db09c12641b510a9606c7587910bc29c5824443ccf2eaec63dbe9660af64c",
-      "archived_at": "2026-10-17",
+      "rows_in": 190,
+      "rows_out": 190,
+      "bytes": 36479,
+      "sha256": "5f4fb8e3d8f12ce130ea6d3d571d3ca2b8a2573678eb3808565ac5d3cdecb5b9",
+      "archived_at": "2026-10-20",
       "source_file": "ADDA_Fall_2026_Singles_Cricket_leaderboard_09_14_26-11_17_26.csv"
     },
     {
@@ -1996,11 +1996,11 @@
       "columns_removed": [
         "Country"
       ],
-      "rows_in": 186,
-      "rows_out": 186,
-      "bytes": 47052,
-      "sha256": "3ce0b3b0d38d03598ff75bef0e480e57cd1370afb5f8d4d362ec887f4d40a4e2",
-      "archived_at": "2026-10-17",
+      "rows_in": 190,
+      "rows_out": 190,
+      "bytes": 48251,
+      "sha256": "645b11e4f9a79c760a4b4ba5e1f77f79d089ade52238dae1d90bfbe37698efe4",
+      "archived_at": "2026-10-20",
       "source_file": "ADDA_Fall_2026_all_01_leaderboard_09_14_26-11_17_26.csv"
     },
     {
@@ -2029,11 +2029,11 @@
       "columns_removed": [
         "Country"
       ],
-      "rows_in": 186,
-      "rows_out": 186,
-      "bytes": 36165,
-      "sha256": "029eb6f3cb99c30eac16c00b1851a8046f6bc3d919641e4f65126f75ee0a3054",
-      "archived_at": "2026-10-17",
+      "rows_in": 190,
+      "rows_out": 190,
+      "bytes": 36973,
+      "sha256": "9583241429cf7b88378d391226637eef2bca378af3a4919dbf5b25f8a58c53c6",
+      "archived_at": "2026-10-20",
       "source_file": "ADDA_Fall_2026_all_cricket_leaderboard_09_14_26-11_17_26.csv"
     },
     {
@@ -2062,11 +2062,11 @@
       "columns_removed": [
         "Country"
       ],
-      "rows_in": 186,
-      "rows_out": 186,
-      "bytes": 18612,
-      "sha256": "bf61690f7f3537361ce31a8517185da45d4c4572380c3c0c013be206b9b6ace6",
-      "archived_at": "2026-10-17",
+      "rows_in": 190,
+      "rows_out": 190,
+      "bytes": 19120,
+      "sha256": "cd3bb17f11494b8ccff807d359f512aad5f3f073c680c4d07a3d0430058f46b5",
+      "archived_at": "2026-10-20",
       "source_file": "ADDA_Fall_2026_all_leaderboard_09_14_26-11_17_26.csv"
     },
     {
@@ -2112,7 +2112,7 @@
       "phase": "regular",
       "date_range": {
         "start": "2026-09-14",
-        "end": "2026-10-12"
+        "end": "2026-10-19"
       },
       "division_scope": [
         "A",
@@ -2122,11 +2122,11 @@
         "E"
       ],
       "columns_removed": [],
-      "rows_in": 72,
-      "rows_out": 72,
-      "bytes": 17533,
-      "sha256": "8448d12fee9ac468babc0746b842a9f6a1d2b8c1af233e95d18998d599906af7",
-      "archived_at": "2026-10-13",
+      "rows_in": 85,
+      "rows_out": 85,
+      "bytes": 20678,
+      "sha256": "c9ab90ebfde4d88f43cc6a7a91b6af6931f36de6d546e00816ce3437a6be5ab4",
+      "archived_at": "2026-10-20",
       "source_file": "Fall_2026_Match_Log_export.csv"
     },
     {
@@ -3246,7 +3246,7 @@
   "adda": {
     "path": "adda/",
     "owned_by": "ADDA",
-    "as_of": "2026-10-19",
+    "as_of": "2026-10-20",
     "note": "ADDA's own canonical layer (players.csv, teams.csv) and DC-id crosswalks (player_crosswalk.csv, team_crosswalk.csv), NOT Dart Connect data. May be corrected on future merges. Unresolved rows are published as unresolved, never guessed.",
     "files": [
       {
