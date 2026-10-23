@@ -7,7 +7,9 @@ per-set, per-leg and per-turn detail ("who threw what against whom") exists only
 
 > **Status of this guide.** DC does not document these pages. Everything below was **observed** on
 > ADDA/ADDACL recaps (2026 seasons) and is [verified] only in the sense "seen in real pages"; any of it can
-> change without notice. Write your parser defensively (missing keys, `null`s, extra keys).
+> change without notice. Write your parser defensively (missing keys, `null`s, extra keys). This has already
+> happened once: in October 2026 DC moved the data payload from an escaped `data-page` attribute to a
+> `<script>` tag (see "How the page carries its data"); the payload's contents were unchanged.
 
 ## Please be a good citizen
 
@@ -50,33 +52,63 @@ The recap site's own pages for the same match id that carry the data in a machin
 
 ## How the page carries its data
 
-Both pages are a server-rendered single-page app (Inertia.js). The HTML contains one element whose
-`data-page` attribute is **the page's whole data payload as HTML-escaped JSON**:
+Both pages are a server-rendered single-page app (Inertia.js). The HTML carries **the page's whole data
+payload as JSON** in a `data-page` tag. DC changed how in October 2026 (first seen 2026-10-22/23):
+
+**Current format** — a `<script>` tag whose inner text is the **plain, unencoded JSON** (no HTML entities to
+undo; the `<div id="app">` is now empty):
+
+```html
+<div id="app"></div>
+<script data-page="app" type="application/json">{"component":"Matches\/Show","props":{ ... }}</script>
+```
+
+**Old format** (before the change; any HTML you saved earlier still has it) — an attribute on the app div,
+holding **HTML-escaped JSON**:
 
 ```html
 <div id="app" data-page="{&quot;component&quot;:&quot;Games/Show&quot;,&quot;props&quot;:{ ... }}">
 ```
 
-So you do not need to scrape visible markup: fetch the HTML, pull out `data-page`, unescape, `json.loads`.
+The JSON itself has the same shape in both (`component`, `props`, `url`, `version`); only the wrapper changed.
+So you do not need to scrape visible markup: fetch the HTML, pull out `data-page`, and `json.loads` it
+(after `html.unescape` for the old attribute form). Handle **both** so cached pages keep working:
 
 ```python
 import html, json, re, urllib.request
+
+# Current: <script data-page="app" type="application/json">...unencoded JSON...</script>
+_SCRIPT_RE = re.compile(r'<script\b[^>]*\bdata-page\b[^>]*>(.*?)</script>', re.S | re.I)
+# Old (pre Oct 2026): <div id="app" data-page="...HTML-escaped JSON...">
+_ATTR_RE = re.compile(r'data-page="([^"]+)"')
+
+def parse_recap(raw: str) -> dict:
+    m = _SCRIPT_RE.search(raw)
+    if m:
+        text = m.group(1)                                              # already plain JSON
+    else:
+        m = _ATTR_RE.search(raw)
+        if not m:
+            raise ValueError("no data-page payload - page layout changed, or not a recap page")
+        text = html.unescape(m.group(1))
+    return json.loads(text)["props"]                                   # the payload you want lives in "props"
 
 def fetch_recap(match_id: str, kind: str = "games") -> dict:          # kind: "games" | "matches"
     req = urllib.request.Request(
         f"https://recap.dartconnect.com/{kind}/{match_id}",
         headers={"User-Agent": "my-league-analysis/0.1 (you@example.com)"},   # be honest about who you are
     )
-    raw = urllib.request.urlopen(req, timeout=30).read().decode("utf-8")
-    m = re.search(r'data-page="([^"]+)"', raw)
-    if not m:
-        raise ValueError("no data-page attribute - page layout changed, or not a recap page")
-    return json.loads(html.unescape(m.group(1)))["props"]              # the payload you want lives in "props"
+    return parse_recap(urllib.request.urlopen(req, timeout=30).read().decode("utf-8"))
 ```
 
-The payload also carries framework plumbing (a route table, auth stubs, asset versions). **Ignore it** — the
-data you want is under `props.matchInfo` and `props.segments` only (plus `props.homePlayers` / `awayPlayers`
-on `/matches/`).
+Only the old attribute form needs `html.unescape`. Do not unescape the script tag's text: the JSON there is not
+entity-encoded, so unescaping could corrupt a name that contains something like `&amp;`. (The JSON escapes `/`
+as `\/`; `json.loads` handles that.)
+
+The payload also carries framework plumbing (auth stubs, asset versions, and — on the old format — a route
+table under `props.ziggy`; the current format drops `ziggy` and adds a top-level `sharedProps`). **Ignore it**
+— the data you want is under `props.matchInfo` and `props.segments` only (plus `props.homePlayers` /
+`awayPlayers` on `/matches/`).
 
 ## `props.matchInfo` — the match header
 
