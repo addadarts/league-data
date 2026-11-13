@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-11",
+  "as_of": "2026-11-13",
   "source": {
     "name": "Dart Connect",
     "url": "https://league.dartconnect.com",
@@ -1966,8 +1966,8 @@
       "rows_in": 194,
       "rows_out": 194,
       "bytes": 37529,
-      "sha256": "1407051a1d23671228a58730636e18683cc570c3ce96e35ce62bfab4bfd9d532",
-      "archived_at": "2026-11-11",
+      "sha256": "0d17452138ed4aba28c9fc2421263d6d496af430aefff4ef954e8aea4d95ae86",
+      "archived_at": "2026-11-13",
       "source_file": "ADDA_Fall_2026_Singles_Cricket_leaderboard_09_14_26-11_17_26.csv"
     },
     {
@@ -3227,14 +3227,19 @@
       "scope": null,
       "cut": null,
       "phase": "post",
-      "date_range": null,
-      "division_scope": [],
+      "date_range": {
+        "start": "2026-11-12",
+        "end": "2026-11-12"
+      },
+      "division_scope": [
+        "Coed"
+      ],
       "columns_removed": [],
-      "rows_in": 0,
-      "rows_out": 0,
-      "bytes": 200,
-      "sha256": "b87dcc483e3a70817b364c2481e9da5bd3b5857b3dc00c79eaf273315efe3000",
-      "archived_at": "2026-11-11",
+      "rows_in": 2,
+      "rows_out": 2,
+      "bytes": 687,
+      "sha256": "0932d004df718bd973525132806874fc278d8cf13acb30731acf20e280e3487e",
+      "archived_at": "2026-11-13",
       "source_file": "Fall_2026_Match_Log_export-POST.csv"
     },
     {
@@ -3251,24 +3256,24 @@
       "phase": "regular",
       "date_range": {
         "start": "2026-07-30",
-        "end": "2026-11-08"
+        "end": "2026-11-12"
       },
       "division_scope": [
         "Coed"
       ],
       "columns_removed": [],
-      "rows_in": 55,
-      "rows_out": 55,
-      "bytes": 13673,
-      "sha256": "a91b61ec0e1a069ab8959c2db4f7c87c7f1af0ed39769ddfabc1cffa0282593f",
-      "archived_at": "2026-11-09",
+      "rows_in": 56,
+      "rows_out": 56,
+      "bytes": 13908,
+      "sha256": "abd82fd43793668ef081e196b6c82f83de63756173b1f288131284ca9843f6bd",
+      "archived_at": "2026-11-13",
       "source_file": "Fall_2026_Match_Log_export.csv"
     }
   ],
   "adda": {
     "path": "adda/",
     "owned_by": "ADDA",
-    "as_of": "2026-11-11",
+    "as_of": "2026-11-13",
     "note": "ADDA's own canonical layer (players.csv, teams.csv) and DC-id crosswalks (player_crosswalk.csv, team_crosswalk.csv), NOT Dart Connect data. May be corrected on future merges. Unresolved rows are published as unresolved, never guessed.",
     "files": [
       {
