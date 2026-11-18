@@ -1,0 +1,20 @@
+# ADDA / ADDACL league data
+
+> Open league data for the Atlanta-Decatur Dart Association (ADDA, Monday league; ADDACL, Coed league): Dart Connect CSV exports per season plus ADDA's canonical player/team ids and crosswalks. Agents: read AGENTS.md first.
+
+## Start here
+
+- [AGENTS.md](AGENTS.md): instructions for agents working with this repository
+- [README.md](README.md): layout, deviations from Dart Connect's files, IDs, freshness, citation, license
+- [manifest.json](manifest.json): every file with season, cut, row counts, checksums
+
+## Docs
+
+- [GOTCHAS.md](GOTCHAS.md): read before computing or aggregating anything
+- [COLUMNS.md](COLUMNS.md): column dictionary
+- [RECAPS.md](RECAPS.md): reading the per-match recap pages
+- [adda/README.md](adda/README.md): canonical layer and crosswalks
+
+## Optional
+
+- [addadarts.com](https://addadarts.com): the league website; `adda_player_id` / `adda_team_id` resolve to its player and team pages
