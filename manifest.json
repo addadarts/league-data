@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-19",
   "source": {
     "name": "Dart Connect",
     "url": "https://league.dartconnect.com",
@@ -1911,7 +1911,7 @@
       "season_label": "Fall 2026",
       "dc_season_id": "24577",
       "file_type": "leaderboard",
-      "status": "complete",
+      "status": "in_progress",
       "game": "01",
       "scope": "singles",
       "cut": "Singles_501_SI_DO",
@@ -1944,7 +1944,7 @@
       "season_label": "Fall 2026",
       "dc_season_id": "24577",
       "file_type": "leaderboard",
-      "status": "complete",
+      "status": "in_progress",
       "game": "cricket",
       "scope": "singles",
       "cut": "Singles_Cricket",
@@ -1977,7 +1977,7 @@
       "season_label": "Fall 2026",
       "dc_season_id": "24577",
       "file_type": "leaderboard",
-      "status": "complete",
+      "status": "in_progress",
       "game": "01",
       "scope": "all",
       "cut": "all_01",
@@ -2010,7 +2010,7 @@
       "season_label": "Fall 2026",
       "dc_season_id": "24577",
       "file_type": "leaderboard",
-      "status": "complete",
+      "status": "in_progress",
       "game": "cricket",
       "scope": "all",
       "cut": "all_cricket",
@@ -2043,7 +2043,7 @@
       "season_label": "Fall 2026",
       "dc_season_id": "24577",
       "file_type": "leaderboard",
-      "status": "complete",
+      "status": "in_progress",
       "game": "match-record",
       "scope": "all",
       "cut": "all",
@@ -2076,7 +2076,7 @@
       "season_label": "Fall 2026",
       "dc_season_id": "24577",
       "file_type": "players",
-      "status": "complete",
+      "status": "in_progress",
       "game": null,
       "scope": null,
       "cut": null,
@@ -2105,7 +2105,7 @@
       "season_label": "Fall 2026",
       "dc_season_id": "24577",
       "file_type": "matchlog",
-      "status": "complete",
+      "status": "in_progress",
       "game": null,
       "scope": null,
       "cut": null,
@@ -2127,14 +2127,14 @@
       "season_label": "Fall 2026",
       "dc_season_id": "24577",
       "file_type": "matchlog",
-      "status": "complete",
+      "status": "in_progress",
       "game": null,
       "scope": null,
       "cut": null,
       "phase": "regular",
       "date_range": {
         "start": "2026-09-14",
-        "end": "2026-11-16"
+        "end": "2026-11-18"
       },
       "division_scope": [
         "A",
@@ -2144,11 +2144,11 @@
         "E"
       ],
       "columns_removed": [],
-      "rows_in": 146,
-      "rows_out": 146,
-      "bytes": 35263,
-      "sha256": "1b2ebf50fb5648096525fd621337a7d9e1a7a3c1f76dbe7402fb24e4092e509e",
-      "archived_at": "2026-11-17",
+      "rows_in": 147,
+      "rows_out": 147,
+      "bytes": 35511,
+      "sha256": "cd175dfe1ac3d9466d10cbf98962dcd121c7f59bf3facf83af9465e4d8a31bf8",
+      "archived_at": "2026-11-19",
       "source_file": "Fall_2026_Match_Log_export.csv"
     },
     {
@@ -3295,7 +3295,7 @@
   "adda": {
     "path": "adda/",
     "owned_by": "ADDA",
-    "as_of": "2026-11-17",
+    "as_of": "2026-11-19",
     "note": "ADDA's own canonical layer (players.csv, teams.csv) and DC-id crosswalks (player_crosswalk.csv, team_crosswalk.csv), NOT Dart Connect data. May be corrected on future merges. Unresolved rows are published as unresolved, never guessed.",
     "files": [
       {
