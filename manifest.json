@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "source": {
     "name": "Dart Connect",
     "url": "https://league.dartconnect.com",
@@ -1932,9 +1932,9 @@
       ],
       "rows_in": 194,
       "rows_out": 194,
-      "bytes": 48066,
-      "sha256": "98abe84483ffe1dc5097529f5e8f6f5be8885af09b4ae07132494fbcb742011e",
-      "archived_at": "2026-11-22",
+      "bytes": 48119,
+      "sha256": "07e75f412f7a1960cb15b6230572df55f45bcb8187171746673290af68cc211b",
+      "archived_at": "2026-11-24",
       "source_file": "ADDA_Fall_2026_Singles_501_SI_DO_leaderboard_09_14_26-12_01_26.csv"
     },
     {
@@ -1965,9 +1965,9 @@
       ],
       "rows_in": 194,
       "rows_out": 194,
-      "bytes": 37660,
-      "sha256": "2e2cd49d60dc48ae9d53155d9efe418b38f679c2c7f0d369900c5eddffd7dc76",
-      "archived_at": "2026-11-23",
+      "bytes": 37679,
+      "sha256": "fbda16fff837e8029861387fa93600251e2af016cca92aafdb3fac12789a849c",
+      "archived_at": "2026-11-24",
       "source_file": "ADDA_Fall_2026_Singles_Cricket_leaderboard_09_14_26-12_01_26.csv"
     },
     {
@@ -1998,9 +1998,9 @@
       ],
       "rows_in": 194,
       "rows_out": 194,
-      "bytes": 50291,
-      "sha256": "584e326768541bcaa4a30895b7b6d46e93aa8a74adc5501953b29c868d53380d",
-      "archived_at": "2026-11-22",
+      "bytes": 50300,
+      "sha256": "42e0cceb321e4095cdb9b68ea58dee6cea95a0acb0bbf4cbb3475f471cdf36ab",
+      "archived_at": "2026-11-24",
       "source_file": "ADDA_Fall_2026_all_01_leaderboard_09_14_26-12_01_26.csv"
     },
     {
@@ -2031,9 +2031,9 @@
       ],
       "rows_in": 194,
       "rows_out": 194,
-      "bytes": 38351,
-      "sha256": "22aea58c51bae06a1f1971d36bd2686f22c364fa9c0521113024ff0685d6d304",
-      "archived_at": "2026-11-23",
+      "bytes": 38373,
+      "sha256": "aa04d08ff78ae516e1934db0c951e2165ec65fdc9dab51d959961b364f78c311",
+      "archived_at": "2026-11-24",
       "source_file": "ADDA_Fall_2026_all_cricket_leaderboard_09_14_26-12_01_26.csv"
     },
     {
@@ -2064,9 +2064,9 @@
       ],
       "rows_in": 194,
       "rows_out": 194,
-      "bytes": 19800,
-      "sha256": "a410961831e68c0e0401326fc285df03c1e672a32babf394d1394573f3badaa1",
-      "archived_at": "2026-11-22",
+      "bytes": 19801,
+      "sha256": "49463819ec6b110462383a9da8bfd6989aa0dfe9f47f0bbd2468e3263f83a16c",
+      "archived_at": "2026-11-24",
       "source_file": "ADDA_Fall_2026_all_leaderboard_09_14_26-12_01_26.csv"
     },
     {
@@ -2134,7 +2134,7 @@
       "phase": "regular",
       "date_range": {
         "start": "2026-09-14",
-        "end": "2026-11-18"
+        "end": "2026-11-23"
       },
       "division_scope": [
         "A",
@@ -2144,11 +2144,11 @@
         "E"
       ],
       "columns_removed": [],
-      "rows_in": 147,
-      "rows_out": 147,
-      "bytes": 35511,
-      "sha256": "cd175dfe1ac3d9466d10cbf98962dcd121c7f59bf3facf83af9465e4d8a31bf8",
-      "archived_at": "2026-11-19",
+      "rows_in": 148,
+      "rows_out": 148,
+      "bytes": 35758,
+      "sha256": "8db86a5cb17ba5bae86287100034456fb512130caeb25e81832cc0ac08d12f3f",
+      "archived_at": "2026-11-24",
       "source_file": "Fall_2026_Match_Log_export.csv"
     },
     {
@@ -3295,7 +3295,7 @@
   "adda": {
     "path": "adda/",
     "owned_by": "ADDA",
-    "as_of": "2026-11-23",
+    "as_of": "2026-11-24",
     "note": "ADDA's own canonical layer (players.csv, teams.csv) and DC-id crosswalks (player_crosswalk.csv, team_crosswalk.csv), NOT Dart Connect data. May be corrected on future merges. Unresolved rows are published as unresolved, never guessed.",
     "files": [
       {
